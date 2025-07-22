@@ -22,3 +22,7 @@ print(type(a))
 
 # print(type(frase))
 # print(type(valor))
+
+# teste
+
+
