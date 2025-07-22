@@ -1,0 +1,1 @@
+Escrever um script que solicite ao usuário dois números e exiba a soma deles
