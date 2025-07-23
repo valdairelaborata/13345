@@ -1,1 +1,0 @@
-Escrever um script que solicite dois números e calcule o primeiro elevado ao segundo.

@@ -1,1 +1,0 @@
-Escrever um script que calcule a área de um retângulo
