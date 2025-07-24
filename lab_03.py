@@ -1,2 +1,18 @@
-1 - Criar um dicionário que armazene informações sobre uma pessoa (nome, idade, e cidade) e exiba essas informações.
-2 - Criar um dicionário que contenha outros dicionários como valores e acessar os elementos.
+
+# pessoas = {"nome": "Nome da pessoa", "idade": 25, "cidade": "Curitiba"}
+
+# dados_pessoa = f"Nome: {pessoas['nome']} e tem {pessoas['idade']} anos de idade"
+
+# print(dados_pessoa)
+
+
+
+pessoas = {"nome": "Nome da pessoa", "idade": 25, "cidade": "Curitiba",
+           "contatos": {
+               "residencial": 888888888, "comercial": 99999999999
+               }
+               }
+
+dados_pessoa = f"Nome: {pessoas['nome']} e tem {pessoas['idade']} anos de idade. O Contato residencial é: {pessoas["contatos"]["residencial"]}"
+
+print(dados_pessoa)
