@@ -1,3 +1,0 @@
-
-1 - Escrever um script que ordene uma lista de números em ordem crescente e decrescente.
-2 - Escrever um script que extraia uma sublista de uma lista original.

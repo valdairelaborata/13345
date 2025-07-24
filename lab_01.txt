@@ -1,1 +1,1 @@
-Escrever um script que substitua todas as ocorrências de uma substring em uma string por outra substring.
+Faça um programa que receba uma letra e verifique se esta é vogal ou consoante.

@@ -1,1 +1,0 @@
-dicionario = {"10": "valor"}
