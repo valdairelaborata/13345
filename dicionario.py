@@ -1,7 +1,7 @@
-cliente = """ {
+cliente =  {
     "nome": "Batman",
     "telefone":41999866081, 
-    "email": "emersonmetalar@gmail.com"} """
+    "email": "emersonmetalar@gmail.com"} 
  
 # nome = cliente["endereco"]
 
@@ -18,13 +18,11 @@ cliente = """ {
 
 # dicionario = eval(cliente)
 
-
 endereco = {"endereco" : "Batcaverna"}
 
-cliente["endereco"] = "Batcaverna"
+cliente.update(endereco)
 
-
-
+print(cliente)
 
 
 
