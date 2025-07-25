@@ -1,1 +1,1 @@
-Faça um programa que receba uma letra e verifique se esta é vogal ou consoante.
+Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário. Mostre uma mensagem de erro e volte a pedir as informações.
