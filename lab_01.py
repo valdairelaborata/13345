@@ -1,5 +1,11 @@
-frase = "Toda a semana a noite nós vamos estudar Python"
+letra = input("Informe uma letra").lower()
 
-frase_final = frase.replace(" a "," xpto ")
 
-print(frase_final)
+vogais = ("a", "e", "i", "o", "u")
+
+
+if letra in vogais:
+    print("é vogal")
+else:
+    print("não é vogal")   
+
