@@ -1,4 +1,4 @@
-frase = "Houveram 12325 visitantes ontem."
+frase = "Houveram 52325 visitantes ontem."
 
 digitos = [c for c in frase if c.isdigit()]
 
