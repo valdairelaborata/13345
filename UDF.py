@@ -1,10 +1,17 @@
 
 
 def soma(a = 10, b = 50):
+    """ função que retorna a soma dos valores informados."""
     return int(a) + int(b)
 
 
+print(soma.__doc__)
 
-print(soma())
-print(soma(22,3))
-print(soma(2,3))
+# resultado = soma(22,3)
+# print(resultado)
+
+# print(soma())
+# print(soma(22,3))
+# print(soma(2,3))
+
+
