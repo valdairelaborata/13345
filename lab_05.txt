@@ -1,4 +1,0 @@
-	Faça um programa que receba o nome de um aluno e 3 notas referentes às avaliações feitas por este. O programa deve continuar recebendo informações até que o nome do aluno esteja em branco. Ao final, o programa deve mostrar um relatório de cada aluno contendo:
-a) O nome do aluno;
-b) As notas do aluno;
-c) A média do aluno.

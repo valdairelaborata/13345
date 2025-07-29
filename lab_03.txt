@@ -1,1 +1,0 @@
-	Dada a String “Houveram 12325 visitantes ontem.”, crie uma nova lista contendo apenas os dígitos.
