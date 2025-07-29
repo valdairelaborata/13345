@@ -1,1 +1,1 @@
-Faça uma função anônima que informe a quantidade de dígitos de um determinado número inteiro informado
+2 - Faça uma função anônima que informe a quantidade de dígitos de um determinado número inteiro informado
