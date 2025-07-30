@@ -1,4 +1,6 @@
 
+
+
 quantidade_digitos = lambda numero: len(str(numero))
 
 
