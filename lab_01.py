@@ -1,36 +1,30 @@
 
-validos = []
-nao_validos = []
+import os
 
-def ler_arquivo(arquivo):
-    arquivo_ips = open(arquivo, "r")
-    lista_ips = arquivo_ips.readlines()
-    arquivo_ips.close()
-    return lista_ips
+nome_diretorio = "arquivos"
 
-def seperar_ips(lista_ips):
-    """Aplicar alguma regra para validar se o ip é válido"""
-    for index, ip in enumerate(lista_ips):
-        if index % 2 == 0:
-            validos.append(ip)
-        else:
-            nao_validos.append(ip)
+os.mkdir(nome_diretorio)
 
-def escrever_arquivo():
-    arquivo_ips_separados = open("ips_separados.txt", "w")
+caminho_diretorio = os.path.abspath(nome_diretorio)
 
-    arquivo_ips_separados.write("[Ips validos]\n")
-    for ip in validos:
-        arquivo_ips_separados.write(ip)
 
-    arquivo_ips_separados.write("\n")
-    arquivo_ips_separados.write("[Ips não validos]\n")
-    for ip in nao_validos:
-        arquivo_ips_separados.write(ip)    
+arquivos = {
+    "arquivo1.txt": "Linha do arquivo 01",
+    "arquivo2.txt": "Linha do arquivo 02",
+    "arquivo3.txt": "Linha do arquivo 03"
+}
 
-    arquivo_ips_separados.close()
-        
+for nome_arquivo, conteudo in arquivos.items():    
+    arquivo = open(os.path.join(caminho_diretorio,nome_arquivo),"w")
+    arquivo.write(conteudo)
+    arquivo.close()
+    
+for nome_arquivo in os.listdir(caminho_diretorio):
+    print(f"Informações do arquivo {nome_arquivo}")
+    arquivo = open(os.path.join(caminho_diretorio,nome_arquivo),"r")
+    conteudo = arquivo.read()
+    print(f"   =>{conteudo}")
 
-seperar_ips(ler_arquivo("ips.txt"))
-escrever_arquivo()
+
+
 
