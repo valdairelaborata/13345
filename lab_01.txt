@@ -1,1 +1,1 @@
-Dado um arquivo com uma lista de IPs, gere um segundo arquivo separando os IPs válidos dos inválidos.
+Crie um diretório e nele crie 3 arquivos .txt. Após liste os arquivos criados e as informações de cada arquivo.
