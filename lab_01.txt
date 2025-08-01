@@ -1,1 +1,2 @@
-Crie um diretório e nele crie 3 arquivos .txt. Após liste os arquivos criados e as informações de cada arquivo.
+Utilizando tratamento de exceções, crie um programa que, dado um valor inteiro informado pelo usuário, retorne a divisão de 1 por este. Se o valor informado for zero, o programa deve informar “Infinito” como resultado. Caso o valor informado não seja um número, o programa deve informar o usuário e continuar solicitando valores até que este seja.
+
