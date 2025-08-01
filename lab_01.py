@@ -1,30 +1,19 @@
 
-import os
 
-nome_diretorio = "arquivos"
+while True:
+    try:
+        valor = int(input("Informe um número: "))
+        if valor == 0:
+            print("Infinito")
+            continue
 
-os.mkdir(nome_diretorio)
+        else:
+            resultado = 1 / valor
+            print(f"Resultado: {resultado}")
+            
+        break
+    except ValueError:
+        print("Valor inválido, informe um valor válido")
 
-caminho_diretorio = os.path.abspath(nome_diretorio)
-
-
-arquivos = {
-    "arquivo1.txt": "Linha do arquivo 01",
-    "arquivo2.txt": "Linha do arquivo 02",
-    "arquivo3.txt": "Linha do arquivo 03"
-}
-
-for nome_arquivo, conteudo in arquivos.items():    
-    arquivo = open(os.path.join(caminho_diretorio,nome_arquivo),"w")
-    arquivo.write(conteudo)
-    arquivo.close()
-    
-for nome_arquivo in os.listdir(caminho_diretorio):
-    print(f"Informações do arquivo {nome_arquivo}")
-    arquivo = open(os.path.join(caminho_diretorio,nome_arquivo),"r")
-    conteudo = arquivo.read()
-    print(f"   =>{conteudo}")
-
-
-
-
+    except:
+        print("Erro")
